@@ -3,10 +3,11 @@
 .afin {
   font-weight: bold;
 }
-.epigrafe{
-  font-style: italic;
 
+.epigrafe {
+  font-style: italic;
 }
+
 .navbar {
   overflow: hidden;
   background-color: black;
@@ -76,57 +77,75 @@
   font-family: 'Poiret One', cursive;
   font-weight: bold;
 }
+
 .dropdown-content a:hover {
   background-color: lightgrey;
 }
+
 .dropdown:hover .dropdown-content {
   display: flex;
 }
+
 .col {
   width: 50%;
   float: left;
   padding: 1%;
 }
-a img.cent{
+
+a img.cent {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
-a img.cent2{
+
+a img.cent2 {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-.h1nav{
-  float: right;
-  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1nav a{
+  float: left;
+  font-family: inherit;
   color: white;
   font-size: 16px;
   border-radius: 20px;
   padding-right: 10px;
 }
+
 #myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {
+  opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
@@ -158,13 +177,23 @@ a img.cent2{
 }
 
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)}
-  to {-webkit-transform:scale(1)}
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
 }
 
 @keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
 }
 
 /* The Close Button */
@@ -186,43 +215,44 @@ a img.cent2{
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
 }
-.news{
-  width: 40%;
-  margin: auto;
-  /* border: 2px solid blue; */
+
+.noticias div, .news {
+  width: 45%;
+  margin: 1%;
   height: auto;
   float: left;
   margin-left: 5px;
 }
-.preview{
-  width: 55%;
-  height: 50vh;
-  margin: auto;
-  /* border: 2px solid blue; */
-  height: auto;
-  float: left;
-}x
-.marquito{
+
+.marquito {
   width: 100%;
-  padding: 1%;
+  padding: 0.5%;
   height: 50vh;
 }
-.copyNot{
-user-select: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
+
+.marquito:hover {
+  border-radius: 30%;
 }
-.videosCentrados{
+
+/* HACK: Usar esto para prevener temporalmente la copia. */
+.copyNot {
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+
+.videosCentrados {
   margin-left: 25%;
 }
-#aca{
+
+#aca {
   line-height: 0%;
 }
