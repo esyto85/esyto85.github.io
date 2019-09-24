@@ -1,4 +1,4 @@
-/* HACK: Usar esto para prevener temporalmente la copia. */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');/* HACK: Usar esto para prevener temporalmente la copia. */
 .copyNot {
   user-select: none;
   -webkit-user-select: none;
@@ -8,7 +8,7 @@
   -o-user-select: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');}
+
 
 .afin {
   font-weight: bold;
