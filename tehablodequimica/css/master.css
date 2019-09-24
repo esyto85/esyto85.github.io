@@ -7,7 +7,10 @@
   -ms-user-select: none;
   -o-user-select: none;
 }
-
+*{
+    font-family: 'Poiret One', cursive;
+    font-weight:600;
+}
 
 
 .afin {
@@ -21,7 +24,6 @@
 .navbar {
   overflow: hidden;
   background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
   border-radius: 20px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
