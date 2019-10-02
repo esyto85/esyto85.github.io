@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="../css/master.css">
+  <!-- <link rel="stylesheet" href="../css/master.css"> -->
+  <link rel="stylesheet" href="../css/flexbox.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Química</title>
 </head>
@@ -50,7 +51,7 @@
     </div>
 
   </header>
-  </div>
+
   </header>
   <main>
     <section>
@@ -60,7 +61,8 @@
       <p>Entonces teníamos gente con plata (buen, plata o similar, para la época), tiempo libre y ganas de pensar y corporizar las ideas (precisamente no es la palabra, pero queda bonita) concebidas.</p>
       <p>Ahí aparece <span id="show">Leucipo</span>, que a pesar de tener nombre de glóbulo blanco, era un pensador griego, y el primer atomista. Y seguro que además tenía barba y usaba toga. Condiciones necesarias para poder ser un hacendado griego.
       </p>
-      <p>Y medio que la historia te la conté desde el final, porque también teníamos corrientes filosóficas igual de piolas que decían que las cosas estaban formadas por <a href="https://www.youtube.com/watch?v=Gs069dndIYk">tierra, viento, fuego</a> y
+      <p>Y medio que la historia te la conté desde el final, porque también teníamos corrientes filosóficas igual de piolas que decían que las cosas estaban formadas por <a href="https://www.youtube.com/watch?v=Gs069dndIYk">tierra, viento, fuego</a>
+        y
         agua o la de las homeomerías. Porque si vas a hablar de filosofía tenés que saber usar prefijos y sufijos.</p>
     </section>
     <section>
@@ -84,32 +86,46 @@
         </div>
         <img class="fotoParticular2" src="../img/modeloFeo.jpg" alt="EstoDespuésLoTildanDeModa/Arte/MensajeTrascendental">
       </div>
-<h3>Modelos científicos</h3>
-<p>Después de todo... de las imágenes, de Zoolander y el debate de qué es bello y qué no, pensar en el ciclo del agua parecería tirado de los pelos. Buenos, tiremos de los pelos.</p>
-<p class="copyNot">Entro en el maravilloso mundo de la especulación: Alguien se dio cuenta que el agua se evapora, luego, cuando baja la temperatura, ese vapor se condensa y después se forman pequeñas gotitas. Seguramente se preguntó ¿adónde vi yo este fenómeno? Y la respuesta vino en forma de mirar una masa de agua (lacustre, marítima, etc) y dijo "Eso, acá" y se avivó de que cuando se producen lluvias, seguramente esa lluvia tuvo que haber estado en forma de gas y si era un gas, antes fue un líquido.</p>
-<p class="copyNot">Había, entonces dos posibilidades: que la lluvia venga de afuera del planeta o que viniera de adentro. Si viene de afuera, gente, yo acá no puedo hacer nada. Hagamos de cuenta que esta persona no contempló la posibilidad de que el agua sea ajena al planeta, sino que provenía de una fuente local, ponele: un lago.</p>
-<p>Sigamos con nuestro viaje especulativo: Esta persona notó que el agua pasa por tres estados en su casa y que además en la naturaleza también se da. Incluso tuvo una forma de detectar al agua en el estado gaseoso (porque vapor y gas son cosas distintas). Se preguntó: "Che ¿el agua se comporta así siempre?"</p>
-<p>Y la vida nos ofrece dos oportunidades</p>
-<ul>
-  <li>Imaginar que esta persona se tomo el trabajo de mirar todas las fuentes acuíferas del planeta, y se tomó el trabajo de documentar el comportamiento del agua en distintas partes del planeta. O...</li>
-  <li>Conversó con otras personas curiosas y les pidió que tomen nota del comportamiento del agua en sus respectivas comunidades.</li>
-</ul>
- <p>Bueno, por el bien de esta persona, y por nuestro futuro como personas de ciencia, pensemos que se fue por el lado de la segunda opción.</p>
- <p>Esta persona hipotética logró observar más o menos el mismo comportamiento, al recopilar y analizar los datos. Hasta se encontró con experimentos alternativos que incluían lluvia de agua sólida. Pero en lugar de descartar los datos, los guardó para otro experimento.</p>
- <p>Para beneficio de nuestra historia podemos decir que se encontró con el mismo comportamiento que había notado en su primera observación. Y aunque su investigación estaba algo sesgada por lo observado en primera instancia, podemos decir que el resto del trabajo es relativamente válido.</p>
- <p>Estamos en presencia del consenso científico: mucha gente observó lo mismo luego de replicar las condiciones de un experimento. Luego del consenso, vino la ley: cuando el agua se calienta, se evapora. Si ese vapor se enfría, condensa y vuelve al estado líquido. Si lo llevamos a la naturaleza, cuando una masa de agua se convierte en vapor, asciende, y se enfría, genera nubes, luego de un proceso de nucleación, las partículas de agua se hacen cada vez más grandes y terminan cayendo a la corteza terrestre en forma de lluvia.</p>
- <p>Nuestra persona hipotética estableció un conjunto de reglas que se ajustan muy bien al comportamiento observado. Esta persona creó un <span class="afin"> modelo científico</span>.</p>
- <p>¿Ven? Más o menos la idea de "modelo" se mantiene.</p>
- <p>En ciencia el modelizado es clave. Si no modelizas, no describís. Si no describís, no podes dar las pautas para que otras personas trabajen sobre tu modelo y propongan alternativas, experimentos anexos o corolarios de tus conclusiones.</p>
- <p class="afin">La ciencia necesita establecer el modelizado de los eventos.</p>
+      <h3>Modelos científicos</h3>
+      <p>Después de todo... de las imágenes, de Zoolander y el debate de qué es bello y qué no, pensar en el ciclo del agua parecería tirado de los pelos. Buenos, tiremos de los pelos.</p>
+      <p class="copyNot">Entro en el maravilloso mundo de la especulación: Alguien se dio cuenta que el agua se evapora, luego, cuando baja la temperatura, ese vapor se condensa y después se forman pequeñas gotitas. Seguramente se preguntó ¿adónde vi
+        yo este fenómeno? Y la respuesta vino en forma de mirar una masa de agua (lacustre, marítima, etc) y dijo "Eso, acá" y se avivó de que cuando se producen lluvias, seguramente esa lluvia tuvo que haber estado en forma de gas y si era un gas,
+        antes fue un líquido.</p>
+      <p class="copyNot">Había, entonces dos posibilidades: que la lluvia venga de afuera del planeta o que viniera de adentro. Si viene de afuera, gente, yo acá no puedo hacer nada. Hagamos de cuenta que esta persona no contempló la posibilidad de
+        que el agua sea ajena al planeta, sino que provenía de una fuente local, ponele: un lago.</p>
+      <p>Sigamos con nuestro viaje especulativo: Esta persona notó que el agua pasa por tres estados en su casa y que además en la naturaleza también se da. Incluso tuvo una forma de detectar al agua en el estado gaseoso (porque vapor y gas son cosas
+        distintas). Se preguntó: "Che ¿el agua se comporta así siempre?"</p>
+      <p>Y la vida nos ofrece dos oportunidades</p>
+      <ul>
+        <li>Imaginar que esta persona se tomo el trabajo de mirar todas las fuentes acuíferas del planeta, y se tomó el trabajo de documentar el comportamiento del agua en distintas partes del planeta. O...</li>
+        <li>Conversó con otras personas curiosas y les pidió que tomen nota del comportamiento del agua en sus respectivas comunidades.</li>
+      </ul>
+      <p>Bueno, por el bien de esta persona, y por nuestro futuro como personas de ciencia, pensemos que se fue por el lado de la segunda opción.</p>
+      <p>Esta persona hipotética logró observar más o menos el mismo comportamiento, al recopilar y analizar los datos. Hasta se encontró con experimentos alternativos que incluían lluvia de agua sólida. Pero en lugar de descartar los datos, los
+        guardó para otro experimento.</p>
+      <p>Para beneficio de nuestra historia podemos decir que se encontró con el mismo comportamiento que había notado en su primera observación. Y aunque su investigación estaba algo sesgada por lo observado en primera instancia, podemos decir que
+        el resto del trabajo es relativamente válido.</p>
+      <p>Estamos en presencia del consenso científico: mucha gente observó lo mismo luego de replicar las condiciones de un experimento. Luego del consenso, vino la ley: cuando el agua se calienta, se evapora. Si ese vapor se enfría, condensa y
+        vuelve al estado líquido. Si lo llevamos a la naturaleza, cuando una masa de agua se convierte en vapor, asciende, y se enfría, genera nubes, luego de un proceso de nucleación, las partículas de agua se hacen cada vez más grandes y terminan
+        cayendo a la corteza terrestre en forma de lluvia.</p>
+      <p>Nuestra persona hipotética estableció un conjunto de reglas que se ajustan muy bien al comportamiento observado. Esta persona creó un <span class="afin"> modelo científico</span>.</p>
+      <p>¿Ven? Más o menos la idea de "modelo" se mantiene.</p>
+      <p>En ciencia el modelizado es clave. Si no modelizás, no describís. Si no describís, no podes dar las pautas para que otras personas trabajen sobre tus observaciones y propongan alternativas, experimentos anexos o corolarios de tus
+        conclusiones.</p>
+      <p class="afin">La ciencia necesita establecer el modelizado de los eventos.</p>
+
+    </section>
+    <section class="videos">
+      <iframe src="https://www.youtube.com/embed/S-JkIu_ah6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/US-trTvtY_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <section>
       <h2>Modelos atómicos</h2>
       <p>Imagínense por donde puede venir esto...</p>
       <p>Sí: veremos algunos de los modelos que fueron propuestos para intentar describir la naturaleza composicional de las sustancias.</p>
       <p class="afin">Importante: estoy dando por sentado que ya saben que las cosas estan formadas por átomos. Y cuando digo cosas, digo: todo lo que se entiende por sistema material. El resto no.</p>
-
     </section>
+
   </main>
   <script>
 

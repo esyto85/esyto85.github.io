@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');/* HACK: Usar esto para prevener temporalmente la copia. */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+/* HACK: Usar esto para prevenir temporalmente la copia. */
 .copyNot {
   user-select: none;
   -webkit-user-select: none;
@@ -7,20 +9,14 @@
   -ms-user-select: none;
   -o-user-select: none;
 }
-*{
-    font-family: 'Poiret One', cursive;
-    font-weight:600;
+
+* {
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+  box-sizing: border-box;
 }
 
-
-.afin {
-  font-weight: bold;
-}
-
-.epigrafe {
-  font-style: italic;
-}
-
+/* Barra de navegación */
 .navbar {
   overflow: hidden;
   background-color: black;
@@ -98,6 +94,14 @@
   display: flex;
 }
 
+.afin {
+  font-weight: bold;
+}
+
+.epigrafe {
+  font-style: italic;
+}
+
 .col {
   width: 48%;
   float: left;
@@ -117,7 +121,7 @@ a img.cent2 {
   margin-right: auto;
 }
 
-.h1nav a{
+.h1nav a {
   float: left;
   font-family: inherit;
   color: white;
@@ -135,8 +139,6 @@ a img.cent2 {
 #myImg:hover {
   opacity: 0.7;
 }
-
-
 
 .noticias div, .news {
   width: 45%;
@@ -164,10 +166,11 @@ a img.cent2 {
   line-height: 0%;
 }
 
-.noticias{
+.noticias {
   overflow: hidden;
 }
-.noticias .fotoParticular{
+
+.noticias .fotoParticular {
   width: 30%;
   margin: 0 0 0 10%;
   float: left;
@@ -175,7 +178,8 @@ a img.cent2 {
   margin-right: auto;
   margin-top: 1%;
 }
-.noticias .fotoParticular2{
+
+.noticias .fotoParticular2 {
   width: 30%;
   margin: 0 0 0 10%;
   float: left;
@@ -183,23 +187,24 @@ a img.cent2 {
   margin-right: auto;
   margin-top: 2%;
 }
-.pParticular{
+
+.pParticular {
   width: 50%;
   float: left;
   margin-left: 10%;
 }
-.parrafos{
+
+.parrafos {
   width: 48%;
   float: left;
   margin-left: 1%;
 }
-.videos iframe{
-  width:373.33px;
-  height:210px;
+
+.videos iframe {
+  width: 373.33px;
+  height: 210px;
   float: left;
-  margin:0 10% 5% 10%;
-
+  margin: 0 10% 5% 10%;
 }
-.videos iframe:hover{
 
-}
+.videos iframe:hover {}
