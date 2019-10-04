@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
+* {
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+  box-sizing: border-box;
+}
 /* HACK: Usar esto para prevenir temporalmente la copia. */
 .copyNot {
   user-select: none;
@@ -9,13 +14,6 @@
   -ms-user-select: none;
   -o-user-select: none;
 }
-
-* {
-  font-family: 'Poiret One', cursive;
-  font-weight: 600;
-  box-sizing: border-box;
-}
-
 /* Barra de navegación */
 .navbar {
   overflow: hidden;
@@ -101,18 +99,20 @@
 .epigrafe {
   font-style: italic;
 }
+.masterContainer{
+  display: flex;
+  justify-content:space-around;
+}
+.columnaA{
+  flex:1;
 
-.col {
-  width: 48%;
-  float: left;
-  padding: 1%;
 }
 
 a img.cent {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 60%;
 }
 
 a img.cent2 {
