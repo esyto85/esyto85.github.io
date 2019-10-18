@@ -1,0 +1,53 @@
+#container div{
+  height: 150px;
+  float: left;
+  margin : 4px;
+  width: 131px;
+  background-color: black;
+  background-size: 100% 100%;
+}
+.container{
+  height: 400px;
+  overflow: hidden;
+  width: 63%;
+  display: block;
+  margin: auto;
+}
+.card1{
+  background-image: url("china1.jpg");
+}
+.card2{
+  background-image: url("china2.jpg");
+
+}
+.card3{
+  background-image: url("china3.jpg");
+
+}
+.card4{
+  background-image: url("china4.jpg");
+
+}
+.card5{
+  background-image: url("china5.jpg");
+
+}
+.card6{
+  background-image: url("china6.jpg");
+
+}
+
+body {
+  background-image: url("chino.jpg");
+  background-size: 100% 100%;
+text-align: center;
+
+}
+p, h3{
+  color: #ffc280;
+
+}
+h1{
+  color: #ffc280;
+margin-top: 73px;
+}
