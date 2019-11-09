@@ -1,0 +1,46 @@
+.contenedor {
+  overflow: hidden;
+  padding-left: 20%;
+}
+
+.imagenConTexto {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+.imagenConTexto img {
+  border-radius: 10% 0 10% 0;
+  border: 5px solid blue;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.imagenConTexto p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+body {
+  background-color: palegreen;
+}
+
+.giraDerecha, .giraIzquierda {
+  transition: transform 1s
+}
+
+.giraDerecha:hover {
+  transform: skew(-30deg, 0)
+}
+
+.giraIzquierda:hover {
+  transform: skew(30deg, 0)
+}
+
+#mainList ul>li {
+  font-weight: 600;
+}
