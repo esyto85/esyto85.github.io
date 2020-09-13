@@ -101,9 +101,8 @@
 }
 /* Barra de navegación -- Fin */
 .gridContainer{
-display: grid;
- grid-template-columns: auto auto;
- grid-gap: 1%;
- padding: 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ grid-gap: 2%;
+ padding: 2%;
  }
- 
