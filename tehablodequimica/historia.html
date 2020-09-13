@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <!-- <link rel="stylesheet" href="css/master.css"> -->
-  <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/master.css">
+  <!-- <link rel="stylesheet" href="css/flexbox.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Química</title>
 </head>
 
-<body>
+<body class="copyNot">
   <header>
     <!-- Recordar colocar la clase active -->
     <div class="navbar">
@@ -49,11 +49,10 @@
         <a href="ddp.html">Química</a>
       </div>
     </div>
-
   </header>
   <main>
-    <section class="masterContainer">
-      <article class="columnaA">
+    <div class="gridContainer">
+      <div class="bloque1">
         <h2>Historia, breve, de la química</h2>
         <p>Para hacer una breve historia de algo, hay que:</p>
         <ol>
@@ -94,8 +93,8 @@
         <a title="National Museum and Research Center of Altamira [Public domain]" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/AltamiraBison.jpg/296px-AltamiraBison.jpg"><img class="cent" width="256"
             alt="David - Portrait of Monsieur Lavoisier and His Wife" src="img/296px-AltamiraBison.jpg"></a>
         <p class="epigrafe"> Una pintura rupestre. No tengo idea de cuándo es. Claramente la persona que la dibujó no llevaba almanaque.</p>
-      </article>
-      <article class="columnaA">
+      </div>
+      <div class="bloque2">
         <h3>Alquimia</h3>
         <p>Existe una creencia un toque vieja que dice que los alquimistas querían convertir plomo en oro. Como si con eso pudieran entender los secretos más profudos del universo bueno, resulta que no. No podían. Y eso tampoco es alquimia. O era.
         </p>
@@ -125,48 +124,49 @@
         </ol>
         <p>Te dejo este video como para que vayas por el buen camino. El filtro lo puse yo. Te lo regalo. Pero ojo cuando busques porque vas a encontrar cosas que no tienen mucho rigor científico. Y eso es peligroso.</p>
         <iframe class="videosCentrados" width="280" height="157.5" src="https://www.youtube.com/embed/gxiLuz9kHi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </article>
-    </section>
-    <h3>Hacia la química moderna</h3>
-    <p>En una línea temporal que no pienso hacer por ahora, podemos ubicar al descubrimiento y control del fuego como primer hito (físicos, abstenerse). Más adelante, la alquimia. Algunos miles de años después y como tercer hito podemos meter a
-      la
-      inquisición. Porque si buscás "motivos por los cuales no tenemos autos voladores y una sociedad utópicamente unida por la conciencia social," arrancá criticando a la inquisición.</p>
-    <p>Entonces me dirás: ¿Che, de cuál jalaste? y yo te diré lo qué podemos hacer... O mejor te sigo contando...</p>
-    <p>Al final este sitio se va a plagar de justificaciones y nada de ciencia. Bueno no.</p>
-    <p>La cosa es que durante muchos años el clero se encargó de regular y administrar gobiernos. Y parte de manejar a una población es controlar qué cosas saben y qué no. Anoten si deciden hacerse con algún cargo político</p>
-    <ul>
-      <li>Paso 1, controlar a los medios.</li>
-      <li>Paso 2, gobernar tranquilo e impune.</li>
-    </ul>
+      </div>
+      <div class="bloque3">
+        <h3>Hacia la química moderna</h3>
+        <p>En una línea temporal que no pienso hacer por ahora, podemos ubicar al descubrimiento y control del fuego como primer hito (físicos, abstenerse). Más adelante, la alquimia. Algunos miles de años después y como tercer hito podemos meter a
+          la
+          inquisición. Porque si buscás "motivos por los cuales no tenemos autos voladores y una sociedad utópicamente unida por la conciencia social," arrancá criticando a la inquisición.</p>
+        <p>Entonces me dirás: ¿Che, de cuál jalaste? y yo te diré lo qué podemos hacer... O mejor te sigo contando...</p>
+        <p>Al final este sitio se va a plagar de justificaciones y nada de ciencia. Bueno no.</p>
+        <p>La cosa es que durante muchos años el clero se encargó de regular y administrar gobiernos. Y parte de manejar a una población es controlar qué cosas saben y qué no. Anoten si deciden hacerse con algún cargo político</p>
+        <ul>
+          <li>Paso 1, controlar a los medios.</li>
+          <li>Paso 2, gobernar tranquilo e impune.</li>
+        </ul>
 
-    <p>Y una de las cosas que no le cabía ni un poquito al clero era que le lleves la contra. Y ojo con ir con evidenicias de algo que no sea "teológicamente cierto." Fija que te desterraban o te encarcelaban o te torturaban o te hacían <a
-        href="https://www.nationalgeographic.com.es/historia/actualidad/el-juicio-contra-galileo_7184">renunciar públicamente a lo que sabías</a> (?) o directamente te mataban.</p>
-    <p>En rigor a la objetividad, existen evidencias sobre las intenciones reales de la inquisición, y no era tan anticientífica, sinó, más bien, antihereje (ok, en esa época, para mi, eran sinónimos, pero es solo una opinion). Te dejo un
-      enlace
-      para que veas un documental de la BBC, eso sí, está subtitulado en inglés. <a href="https://www.youtube.com/watch?v=eMkjvCKTK3Q&index=1&list=PL9F2B35865253BA80">Enlace.</a> </p>
-    <p>En la edad media y durante un tiempito más, aparte de quemar gente por ofrecer empirismo también existía como un movimiento revolucionario escondido. No, no se juntaban para "nerdear" pero tampoco se podían animar a mostrarse demasiado. Este
-      movimiento "indie" de científicos nos dejó joyitas como el telescopio, la teoría heliocéntrica, el descubrimiento del oxígeno (ya no tan "indie" a cargo de Lavoisier). Y ojo, muchos de estos científicos no hacían más que validar viejas
-      teorías
-      como la esfericidad de la tierra (sí, te juro que es una esfera, o esferoide oblato), las posiciones relativas de los demás cuerpos celestes, etc. Se habló de una revolución científica en la época, porque de verdad se había hallado
-      evidencia
-      empírica para demostrar que ciertas creencias dogmáticas deberían permanecer en el plano espirtual y bajo ningún concepto deben interferir con la vida objetiva.</p>
-    <p>Pero no. Igual, no es una cuestión de pensar como uno, sino, de dudar de todo esto y ver qué onda.</p>
-    <p>Entonces ya deberíamos tener más o menos claro por qué no estamos intercambiando bienes materiales con los vecinos de Andrómeda.</p>
-    <p>Acá irían algunos vínculos de ínteres, pero debería encontrar algunos que me interesen a mi en primer lugar.</p>
+        <p>Y una de las cosas que no le cabía ni un poquito al clero era que le lleves la contra. Y ojo con ir con evidenicias de algo que no sea "teológicamente cierto." Fija que te desterraban o te encarcelaban o te torturaban o te hacían <a
+            href="https://www.nationalgeographic.com.es/historia/actualidad/el-juicio-contra-galileo_7184">renunciar públicamente a lo que sabías</a> (?) o directamente te mataban.</p>
+        <p>En rigor a la objetividad, existen evidencias sobre las intenciones reales de la inquisición, y no era tan anticientífica, sinó, más bien, antihereje (ok, en esa época, para mi, eran sinónimos, pero es solo una opinion). Te dejo un
+          enlace
+          para que veas un documental de la BBC, eso sí, está subtitulado en inglés. <a href="https://www.youtube.com/watch?v=eMkjvCKTK3Q&index=1&list=PL9F2B35865253BA80">Enlace.</a> </p>
+        <p>En la edad media y durante un tiempito más, aparte de quemar gente por ofrecer empirismo también existía como un movimiento revolucionario escondido. No, no se juntaban para "nerdear" pero tampoco se podían animar a mostrarse demasiado. Este
+          movimiento "indie" de científicos nos dejó joyitas como el telescopio, la teoría heliocéntrica, el descubrimiento del oxígeno (ya no tan "indie" a cargo de Lavoisier). Y ojo, muchos de estos científicos no hacían más que validar viejas
+          teorías
+          como la esfericidad de la tierra (sí, te juro que es una esfera, o esferoide oblato), las posiciones relativas de los demás cuerpos celestes, etc. Se habló de una revolución científica en la época, porque de verdad se había hallado
+          evidencia
+          empírica para demostrar que ciertas creencias dogmáticas deberían permanecer en el plano espirtual y bajo ningún concepto deben interferir con la vida objetiva.</p>
+        <p>Pero no. Igual, no es una cuestión de pensar como uno, sino, de dudar de todo esto y ver qué onda.</p>
+        <p>Entonces ya deberíamos tener más o menos claro por qué no estamos intercambiando bienes materiales con los vecinos de Andrómeda.</p>
+        <p>Acá irían algunos vínculos de ínteres, pero debería encontrar algunos que me interesen a mi en primer lugar.</p>
+      </div>
+      <div class="bloque4">
+        <h3>En resumen:</h3>
+        <ul>
+          <li>El fanatismo, para cualquier lado, es malo.</li>
+          <li>La Iglesia católica no fue la culpable de que hoy no tengamos autos que vuelan: fueron sus acólitos empoderados por una sotana los que castigaban renegar del plan.</li>
+          <li>Dato no menor: muchos científicos de renombre profesan algún credo (poli o monoteísta) y vaya que hicieron mucho por la ciencia. Esos científicos merecen, desde mi parte un doble respeto: por un lado pueden trabajar basándose en
+            evidencia y por el otro lado pueden llevar una vida espiritual que logre satisfacer otras necesidades. No como un jefe que tuve que era super religioso (level: no como jamón) pero desarrollo una fórmula para la pastilla del día después.
+          </li>
+        </ul>
+        <p>Yo no soy científico, sino un incipiente divulgador y no profeso ningún credo. Desde hace un tiempo trato de ser buenito porque me pinta.</p>
+        </p>
+      </div>
+    </div>
 
-
-    <section>
-      <h3>En resumen:</h3>
-      <ul>
-        <li>El fanatismo, para cualquier lado, es malo.</li>
-        <li>La Iglesia católica no fue la culpable de que hoy no tengamos autos que vuelan: fueron sus acólitos empoderados por una sotana los que castigaban renegar del plan.</li>
-        <li>Dato no menor: muchos científicos de renombre profesan algún credo (poli o monoteísta) y vaya que hicieron mucho por la ciencia. Esos científicos merecen, desde mi parte un doble respeto: por un lado pueden trabajar basándose en
-          evidencia y por el otro lado pueden llevar una vida espiritual que logre satisfacer otras necesidades. No como un jefe que tuve que era super religioso (level: no como jamón) pero desarrollo una fórmula para la pastilla del día después.
-        </li>
-      </ul>
-      <p>Yo no soy científico, sino un incipiente divulgador y no profeso ningún credo. Desde hace un tiempo trato de ser buenito porque me pinta.</p>
-      </p>
-    </section>
   </main>
 </body>
 

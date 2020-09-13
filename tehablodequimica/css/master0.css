@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One');
-
-/* HACK: Usar esto para prevenir temporalmente la copia. */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One');/* HACK: Usar esto para prevenir temporalmente la copia. */
 .copyNot {
   user-select: none;
   -webkit-user-select: none;
@@ -9,11 +7,11 @@
   -ms-user-select: none;
   -o-user-select: none;
 }
-
-* {
-  font-family: 'Poiret One', cursive;
-  font-weight: 600;
+*{
+    font-family: 'Poiret One', cursive;
+    font-weight:600;
 }
+
 
 .afin {
   font-weight: bold;
@@ -22,7 +20,7 @@
 .epigrafe {
   font-style: italic;
 }
-/* Barra de navegación -- Inicio*/
+
 .navbar {
   overflow: hidden;
   background-color: black;
@@ -99,11 +97,109 @@
 .dropdown:hover .dropdown-content {
   display: flex;
 }
-/* Barra de navegación -- Fin */
-.gridContainer{
-display: grid;
- grid-template-columns: auto auto;
- grid-gap: 1%;
- padding: 1%;
- }
- 
+
+.col {
+  width: 48%;
+  float: left;
+  padding: 1%;
+}
+
+a img.cent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+a img.cent2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1nav a{
+  float: left;
+  font-family: inherit;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  padding-right: 10px;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+
+
+.noticias div, .news {
+  width: 45%;
+  margin: 1%;
+  height: auto;
+  float: left;
+  margin-left: 5px;
+}
+
+.marquito {
+  width: 100%;
+  padding: 0.5%;
+  height: 50vh;
+}
+
+.marquito:hover {
+  border-radius: 30%;
+}
+
+.videosCentrados {
+  margin-left: 25%;
+}
+
+#aca {
+  line-height: 0%;
+}
+
+.noticias{
+  overflow: hidden;
+}
+.noticias .fotoParticular{
+  width: 30%;
+  margin: 0 0 0 10%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+.noticias .fotoParticular2{
+  width: 30%;
+  margin: 0 0 0 10%;
+  float: left;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.pParticular{
+  width: 50%;
+  float: left;
+  margin-left: 10%;
+}
+.parrafos{
+  width: 48%;
+  float: left;
+  margin-left: 1%;
+}
+.videos iframe{
+  width:373.33px;
+  height:210px;
+  float: left;
+  margin:0 10% 5% 10%;
+
+}
+.videos iframe:hover{
+
+}
