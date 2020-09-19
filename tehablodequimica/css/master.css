@@ -100,15 +100,21 @@
   display: flex;
 }
 /* Barra de navegación -- Fin */
-/* index */
+/* index -- Inicio*/
 .contenedorGridIndex{
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-gap: 1.5rem;
 }
-.gridContainer{
+/* Index -- Fin*/
+/* Historia -- Inicio */
+/* .gridContainer{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
  grid-gap: 2%;
  padding: 2%;
  }
+ .bloque1, .bloque2{
+   border: 2px solid black;
+ } */
+ /* Historia -- Fin */
